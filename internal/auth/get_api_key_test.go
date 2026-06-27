@@ -12,7 +12,7 @@ func TestGetAPIKey(t *testing.T) {
 		wantKey     string
 		wantErr     bool
 	}{
-		{"", "ApiKey abc123", "abc123", false},
+		{"Authorization", "ApiKey abc123", "abc123", false},
 		{"Authorization", "ApiKey abc123 extra", "abc123", false},
 		{"Authorization", "abc123 123", "abc123", true},
 		{"Authorization", "ApiKey123", "abc123", true},

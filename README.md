@@ -1,4 +1,4 @@
-![tests passing](https://github.com/ninesl//actions/workflows/ci.yml/badge.svg)
+![tests passing](https://github.com/ninesl/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 
 
 

@@ -9,8 +9,8 @@ job:
     name: Deploy
     runs-on: ubuntu-latest
 
-    jobs:
-    - name: Check out code
+    steps:
+      - name: Check out code
         uses: actions/checkout@v6
 
       - name: Set up Go
